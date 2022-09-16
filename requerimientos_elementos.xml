@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2022-09-16 15:54:23">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_0560B9AA_0695_45ea_8A97_254EBA0DF99D">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Modulo de elementos" xmi.id="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="Functional requirements analysis examines the requirements for a solution that describe the capabilities that a solution must have in terms of the behaviour and information that the solution will manage. &lt;i&gt;BABOK&amp;#174; Guide v3&lt;/i&gt;"/>
+						<UML:TaggedValue tag="parent" value="EAPK_146C5D70_A5B3_4c15_98F6_80D9EEC0C6CC"/>
+						<UML:TaggedValue tag="ea_package_id" value="3"/>
+						<UML:TaggedValue tag="created" value="2022-09-13 21:17:16"/>
+						<UML:TaggedValue tag="modified" value="2022-09-13 21:34:14"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2016-08-29 11:08:34"/>
+						<UML:TaggedValue tag="lastsavedate" value="2016-08-29 11:08:34"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="8"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;VICON=3;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="s_bej"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="8"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_0560B9AA_0695_45ea_8A97_254EBA0DF99D_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Actualización del elemento de trueque" xmi.id="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FunctionalRequirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Precondici&amp;#243;n: Se debe disponer de los datos mencionados en el cuadro de entradas&#xA;Descripci&amp;#243;n: Se deben actualizar los datos y un link de la foto para tenerlo disponible y usarlo, adem&amp;#225;s el art&amp;#237;culo debe quedar ligado al usuario que lo public&amp;#243;&#xA;Poscondici&amp;#243;n: Debe quedar el dato actualizado en la base de datos."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-13 21:24:26"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-13 21:24:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Modulo de elementos"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2-3"/>
+										<UML:TaggedValue tag="author" value="s_bej"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="FunctionalRequirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="40"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D3F69C8E-F8CD-40b8-BDE9-A1906AD4BA92}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FunctionalRequirement;FQName=EAREQ::FunctionalRequirement;@ENDSTEREO;$DES;$CLT={1A231034-7EA0-42ec-8795-F935782FFFB5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Ingreso de elemento de trueque" xmi.id="EAID_34A14936_5022_40ad_8930_8D6294621BAC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FunctionalRequirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Precondici&amp;#243;n: Se debe disponer de los datos mencionados en el cuadro de entradas&#xA;Descripci&amp;#243;n: Se deben guardar los datos y un link de la foto para tenerlo disponible y usarlo, adem&amp;#225;s el art&amp;#237;culo debe quedar ligado al usuario que lo public&amp;#243;&#xA;Poscondici&amp;#243;n: Debe quedar guardado en la base de datos."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-13 21:23:32"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-13 21:24:01"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Modulo de elementos"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2-2"/>
+										<UML:TaggedValue tag="author" value="s_bej"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="FunctionalRequirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="39"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6D608DC4-0219-40bf-A26E-913F6A1A0B8A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FunctionalRequirement;FQName=EAREQ::FunctionalRequirement;@ENDSTEREO;$DES;$CLT={34A14936-5022-40ad-8930-8D6294621BAC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Eliminación del elemento de trueque" xmi.id="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FunctionalRequirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Precondici&amp;#243;n: Se debe disponer de los datos mencionados en el cuadro de entradas&#xA;Descripci&amp;#243;n: Se debe cambiar el estado del registro, mas no eliminarlo para tener control sobre los registros en auditor&amp;#237;a.&#xA;Poscondici&amp;#243;n: Debe quedar el estado cambiado y no aparecer m&amp;#225;s en b&amp;#250;squedas ni relacionados."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-13 21:25:55"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-13 21:26:17"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Modulo de elementos"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2-4"/>
+										<UML:TaggedValue tag="author" value="s_bej"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="FunctionalRequirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="41"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4D3F7A24-1EBA-4d55-9F96-CE22D0D055C6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FunctionalRequirement;FQName=EAREQ::FunctionalRequirement;@ENDSTEREO;$DES;$CLT={47D73866-50F7-49bd-94B4-AC914F5036F6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Modulo de categorías" xmi.id="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FunctionalRequirement"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Precondici&amp;#243;n: Se debe disponer del nombre y descripci&amp;#243;n de la categor&amp;#237;a&#xA;Descripci&amp;#243;n: Se debe generar un peque&amp;#241;o m&amp;#243;dulo de inscripci&amp;#243;n y eliminaci&amp;#243;n de categor&amp;#237;as para los elementos que s&amp;#243;lo sea accesible desde el perfil del administrador&#xA;Poscondici&amp;#243;n: Se realizar&amp;#225; el registro o eliminaci&amp;#243;n de una categor&amp;#237;a y esta debe verse o no (dependiendo de la operaci&amp;#243;n) en la inscripci&amp;#243;n de un nuevo elemento"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D"/>
+										<UML:TaggedValue tag="date_created" value="2022-09-13 21:19:59"/>
+										<UML:TaggedValue tag="date_modified" value="2022-09-13 21:21:44"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Modulo de elementos"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2-1"/>
+										<UML:TaggedValue tag="author" value="s_bej"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="FunctionalRequirement"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="38"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6BB788FB-E2F3-4901-96F4-9B28D5C4E932}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=FunctionalRequirement;FQName=EAREQ::FunctionalRequirement;@ENDSTEREO;$DES;$CLT={E8DDFC39-A216-48bf-9F58-63E6B2EE5DE3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="dataDescription" xmi.id="EAID_64CA653E_B818_3ab8_8B05_9EF31D7868C0" value="&lt;memo&gt;" modelElement="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5"/>
+		<UML:TaggedValue tag="operationDescription" xmi.id="EAID_3B32EAF5_2A0F_392a_9A31_F7B0B5AC3951" value="&lt;memo&gt;" modelElement="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5"/>
+		<UML:TaggedValue tag="priority" xmi.id="EAID_A142CBA2_8BDC_378b_B963_DE4EA56D894A" value="#NOTES#Values: High,Medium,Low,Essential,Conditional,Optional&#xA;" modelElement="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5"/>
+		<UML:TaggedValue tag="reportDescription" xmi.id="EAID_82F72280_1BDA_121b_829B_C0C31754F371" value="&lt;memo&gt;" modelElement="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5"/>
+		<UML:TaggedValue tag="workflowDescription" xmi.id="EAID_CF865F7F_9F59_8f9f_A568_590FF154DD6C" value="&lt;memo&gt;" modelElement="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5"/>
+		<UML:TaggedValue tag="dataDescription" xmi.id="EAID_64CA653E_B818_3ab8_A47C_273DBFA469E8" value="&lt;memo&gt;" modelElement="EAID_34A14936_5022_40ad_8930_8D6294621BAC"/>
+		<UML:TaggedValue tag="operationDescription" xmi.id="EAID_3B32EAF5_2A0F_392a_9125_A1FFC6589970" value="&lt;memo&gt;" modelElement="EAID_34A14936_5022_40ad_8930_8D6294621BAC"/>
+		<UML:TaggedValue tag="priority" xmi.id="EAID_A142CBA2_8BDC_378b_885C_9B24EB67002C" value="#NOTES#Values: High,Medium,Low,Essential,Conditional,Optional&#xA;" modelElement="EAID_34A14936_5022_40ad_8930_8D6294621BAC"/>
+		<UML:TaggedValue tag="reportDescription" xmi.id="EAID_82F72280_1BDA_121b_8663_05BE1EC58837" value="&lt;memo&gt;" modelElement="EAID_34A14936_5022_40ad_8930_8D6294621BAC"/>
+		<UML:TaggedValue tag="workflowDescription" xmi.id="EAID_CF865F7F_9F59_8f9f_8B87_2FD7E6D2D417" value="&lt;memo&gt;" modelElement="EAID_34A14936_5022_40ad_8930_8D6294621BAC"/>
+		<UML:TaggedValue tag="dataDescription" xmi.id="EAID_64CA653E_B818_3ab8_B733_9AC79A9D94D5" value="&lt;memo&gt;" modelElement="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6"/>
+		<UML:TaggedValue tag="operationDescription" xmi.id="EAID_3B32EAF5_2A0F_392a_BA59_984AA1A97D10" value="&lt;memo&gt;" modelElement="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6"/>
+		<UML:TaggedValue tag="priority" xmi.id="EAID_A142CBA2_8BDC_378b_A38F_463F2175A8DB" value="#NOTES#Values: High,Medium,Low,Essential,Conditional,Optional&#xA;" modelElement="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6"/>
+		<UML:TaggedValue tag="reportDescription" xmi.id="EAID_82F72280_1BDA_121b_B659_D7AEEF8F89AF" value="&lt;memo&gt;" modelElement="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6"/>
+		<UML:TaggedValue tag="workflowDescription" xmi.id="EAID_CF865F7F_9F59_8f9f_AE36_27C465060804" value="&lt;memo&gt;" modelElement="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6"/>
+		<UML:TaggedValue tag="dataDescription" xmi.id="EAID_64CA653E_B818_3ab8_9558_B11DFA0C808C" value="&lt;memo&gt;" modelElement="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3"/>
+		<UML:TaggedValue tag="operationDescription" xmi.id="EAID_3B32EAF5_2A0F_392a_A2DE_65746CE57037" value="&lt;memo&gt;" modelElement="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3"/>
+		<UML:TaggedValue tag="priority" xmi.id="EAID_A142CBA2_8BDC_378b_85E9_F77A978CDA28" value="#NOTES#Values: High,Medium,Low,Essential,Conditional,Optional&#xA;" modelElement="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3"/>
+		<UML:TaggedValue tag="reportDescription" xmi.id="EAID_82F72280_1BDA_121b_A0A3_115D494CC8FF" value="&lt;memo&gt;" modelElement="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3"/>
+		<UML:TaggedValue tag="workflowDescription" xmi.id="EAID_CF865F7F_9F59_8f9f_9F35_FC16D074B5A6" value="&lt;memo&gt;" modelElement="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3"/>
+		<UML:Diagram name="Functional Requirements Hierarchy" xmi.id="EAID_AC876A6C_F0CF_4fe8_8E5F_955542DE1CBD" diagramType="CustomDiagram" owner="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="documentation" value="This BABOK Requirements diagram shows three requirements that form a hierarchy showing how requirements can be broken down to any number of levels. Requirements can also be nested under each other in the Project Browser showing their hierarchy."/>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="s_bej"/>
+				<UML:TaggedValue tag="created_date" value="2022-09-13 21:17:16"/>
+				<UML:TaggedValue tag="modified_date" value="2022-09-16 14:10:31"/>
+				<UML:TaggedValue tag="package" value="EAPK_0560B9AA_0695_45ea_8A97_254EBA0DF99D"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=16777215;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="2"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=E886C7CA;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=BABOK::Requirements;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=354;Top=151;Right=464;Bottom=197;" subject="EAID_47D73866_50F7_49bd_94B4_AC914F5036F6" seqno="1" style="HideIcon=0;DUID=BBF01826;"/>
+				<UML:DiagramElement geometry="Left=166;Top=151;Right=276;Bottom=197;" subject="EAID_1A231034_7EA0_42ec_8795_F935782FFFB5" seqno="2" style="HideIcon=0;DUID=05ED8103;"/>
+				<UML:DiagramElement geometry="Left=354;Top=59;Right=464;Bottom=105;" subject="EAID_34A14936_5022_40ad_8930_8D6294621BAC" seqno="3" style="HideIcon=0;DUID=2D673D29;"/>
+				<UML:DiagramElement geometry="Left=167;Top=49;Right=277;Bottom=114;" subject="EAID_E8DDFC39_A216_48bf_9F58_63E6B2EE5DE3" seqno="4" style="HideIcon=0;DUID=2A50AE9D;UCRect=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
